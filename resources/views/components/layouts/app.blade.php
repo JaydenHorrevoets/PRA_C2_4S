@@ -34,15 +34,12 @@
 
         </div>
 
-        <div class="row">
-            <x-footer/>
-        </div>
+
 
     </div>
 
 
 </div>
-
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
@@ -51,4 +48,6 @@
 <script src="{{ asset('/js/app.js') }}"></script>
 
 </body>
+
 </html>
+<x-footer/>
