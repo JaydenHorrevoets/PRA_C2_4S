@@ -56,3 +56,14 @@ Route::get('/{brand_id}/{brand_slug}/{manual_id}/', [ManualController::class, 's
 
 // Generate sitemaps
 Route::get('/generateSitemap/', [SitemapController::class, 'generate']);
+
+Route::get('/', function () {
+    $list =[
+                'Levi',
+                'Jayden'
+            ];
+
+
+    $brands = Brand::all()->sortBy('name');
+    return view('pages.homepage', compact('brands'), ['list' => $list]);
+})->name('home');

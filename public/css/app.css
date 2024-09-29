@@ -10085,3 +10085,11 @@ footer #about-us, footer #contact-info, footer #social-links {
     margin-bottom: 20px;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+}
+.col-md-8{
+    width: 70%;
+    margin: 0 auto;
+}
