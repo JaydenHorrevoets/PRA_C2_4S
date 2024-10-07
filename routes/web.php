@@ -67,3 +67,9 @@ Route::get('/', function () {
     $brands = Brand::all()->sortBy('name');
     return view('pages.homepage', compact('brands'), ['list' => $list]);
 })->name('home');
+
+
+Route::get
+('/forumpage', function (){
+    return view('pages.forumpage');
+})->name('forum');
