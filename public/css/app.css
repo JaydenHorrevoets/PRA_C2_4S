@@ -10030,6 +10030,27 @@ a.text-dark:hover, a.text-dark:focus {
 
 
 
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.col-md-4 {
+    background-color: lightgrey;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+a {
+    color: #ff6600;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
 
 .row{
     display: flex;
